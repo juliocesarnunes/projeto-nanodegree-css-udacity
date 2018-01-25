@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	margin: 10px 20px;
+}
+
+
+.header {
+	text-align: center;
+	border-bottom: 3px solid #7d97ad;
+
+}
+
+
+.logo img {
+	width: 50%;
+	height: auto;
+}
+
+.header h1 {
+	font-weight: 100;
+	font-size: 55px;
+	color:#2d3c49;
+}
+
+.header h2 {
+	font-weight: 300;
+	color: #7d97ad;
+	font-size: 15px;
+
+
+}
+
+
+
+.banner {
+	margin-top: 30px;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+}
+
+
+.cards .card img {
+	width: 100%;
+	height: auto;
+}
+
+.cards .card h3, .cards .card p {
+	text-align: center;
+
+}
+.cards .card h3 {
+	font-weight: 100;
+	color: #2d3c49;
+	font-size: 30px
+}
+.futuro {
+	font-weight: 100;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 734px) {
+	.container {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	.header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.header .texto {
+		text-align: right;
+	}
+	.header .logo {
+		width: 200px;
+		height: auto;
+	}
+	.cards {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.cards .card {
+		width: 31%;
+	}
+	.card p {
+		color:#2d3c49;
+		font-weight: 100;
+
+	}
+
+}
+
